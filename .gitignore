@@ -141,3 +141,21 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# GreenCampus AI project files
+
+# Environment variables
+.env
+.env.*
+
+# Dependencies
+node_modules/
+
+# Uploaded user images
+backend/uploads/
+
+# Frontend build files
+frontend/dist/
+
+# Backend logs
+backend/*.log
